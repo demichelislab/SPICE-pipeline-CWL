@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec /usr/bin/env java -jar "/usr/share/gatk/gatk.jar" "$@"

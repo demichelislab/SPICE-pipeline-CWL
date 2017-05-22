@@ -1,8 +1,8 @@
 FROM openjdk:8-jre-alpine
 
-ARG picard_version
+ARG pkg_version
 
 ADD rootfs/ /
-ADD https://github.com/broadinstitute/picard/releases/download/${picard_version}/picard.jar /usr/share/picard/picard.jar
+ADD https://github.com/broadinstitute/picard/releases/download/${pkg_version}/picard.jar /usr/share/picard/picard.jar
 
 CMD [ "/usr/bin/picard" ]

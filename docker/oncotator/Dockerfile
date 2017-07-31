@@ -35,4 +35,4 @@ RUN apk --no-cache add python2       \
 
 COPY --from=build /installed/ /usr/
 
-CMD [ "/bin/oncotator" ]
+CMD [ "/usr/bin/oncotator" ]

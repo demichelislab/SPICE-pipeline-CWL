@@ -1,4 +1,4 @@
-FROM alpine:3.5 AS build
+FROM alpine:3.6 AS build
 
 ARG pkg_version
 
@@ -27,7 +27,7 @@ RUN apk --no-cache add ca-certificates                                          
     PYTHONPATH=$(pwd)/${python_path} python setup.py install --prefix $(pwd)/installed && \
     ln -s $(pwd)/installed /installed
 
-FROM alpine:3.5
+FROM alpine:3.6
 
 RUN apk --no-cache add python2       \
                        py-setuptools \

@@ -12,6 +12,7 @@ RUN apk --no-cache add ca-certificates                                          
     tar -xzf ${pkg_version}.tar.gz                                                                         && \
     cd gatk-protected-${pkg_version}/                                                                      && \
     sed -i -re 's_/bin/bash_/bin/sh_' public/src/main/scripts/shell/delete_maven_links.sh                  && \
+    sed -i -re '/<module>external-example<\/module>/d' public/pom.xml                                      && \
     mvn verify -P\!queue                                                                                   && \
     mv protected/gatk-package-distribution/target/gatk-package-distribution-${pkg_version}.jar ../gatk.jar
 

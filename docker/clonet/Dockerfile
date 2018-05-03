@@ -12,7 +12,6 @@ RUN apk --no-cache add R                                 \
                                                       && \
     cd /build                                         && \
     ./bin/install_r_packages.R                        && \
-    ./bin/install_igraph.sh                           && \
     git clone https://bitbucket.org/deid00/clonet.git && \
     cd clonet                                         && \
     mkdir -p ${pkg_folder}/src                        && \

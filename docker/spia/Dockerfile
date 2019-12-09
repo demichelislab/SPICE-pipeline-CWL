@@ -15,6 +15,7 @@ RUN apk --no-cache add R                                                        
     mv Bin/SPIA.R Bin/SPIAfunctions.R ${pkg_folder}/src/                                    && \
     ln -s ${pkg_folder}/src/SPIA.R /usr/bin/                                                && \
     ln -s ${pkg_folder}/src/SPIA.R /usr/bin/spia                                            && \
+    chmod o+x ${pkg_folder}/src/SPIA.R                                                      && \
     cd /                                                                                    && \
     rm -rf /build/
 

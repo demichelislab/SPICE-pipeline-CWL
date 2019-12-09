@@ -1,4 +1,4 @@
-FROM alpine:3.6 AS build
+FROM alpine:3.7 AS build
 
 ARG pkg_version
 
@@ -27,7 +27,7 @@ RUN apk --no-cache add openssl                                                  
     mkdir ../bin                                                                      && \
     for c in vep filter_vep variant_recoder; do cp ${c} ../bin/; done
 
-FROM alpine:3.6
+FROM alpine:3.7
 
 RUN apk --no-cache add perl      \
                        perl-dbi  \

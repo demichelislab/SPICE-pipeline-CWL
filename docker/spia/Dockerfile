@@ -1,13 +1,10 @@
-FROM alpine:3.6
+FROM r-base
 
 ENV pkg_folder /usr/share/spia
 
-RUN apk --no-cache add R                                                                       \
-                       openssl                                                                 \
-                                                                                            && \
-    mkdir /build                                                                            && \
+RUN mkdir /build                                                                            && \
     cd /build                                                                               && \
-    wget https://demichelislab.unitn.it/lib/exe/fetch.php?media=spia.zip -O spia.zip        && \
+    wget http://demichelislab.unitn.it/lib/exe/fetch.php?media=spia.zip -O spia.zip         && \
     unzip spia.zip                                                                          && \
     cd SPIA                                                                                 && \
     sed -i -re 's|SPIAfunctions_location|"'${pkg_folder}'/src/SPIAfunctions.R"|' Bin/SPIA.R && \

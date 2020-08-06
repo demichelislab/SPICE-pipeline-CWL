@@ -1,7 +1,5 @@
 FROM r-base
 
-ARG pkg_version
-
 ADD rootfs/ /
 
 RUN /build/bin/install_r_packages.R && \

@@ -1,10 +1,8 @@
 FROM r-base
 
-ARG pkg_version
-
 ADD rootfs/ /
 
 RUN /build/bin/install_r_packages.R && \
     rm -rf /build
 
-CMD [ "/usr/bin/Rscript" ]
+CMD [ "/usr/bin/ethseq" ]

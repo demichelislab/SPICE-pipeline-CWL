@@ -1,0 +1,21 @@
+name: mutect2_output_map
+type: record
+doc: Data structure that describes the outputs that can be produced by Mutect2.
+fields:
+  - name: vcf_raw
+    type: File
+    doc: Raw somatic variants calls (SNVs and indels) found in the tumor sample.
+  - name: vcf_raw_idx
+    type: File
+    doc: Index file for the VCF raw calls.
+  - name: vcf_raw_stats
+    type: File
+    doc: Stats file for the VCF raw calls.
+  - name: vcf_pass
+    type: File
+    doc: |-
+      Filtered somatic variants calls (SNVs and indels) detected in the tumor
+      sample.
+  - name: vcf_pass_idx
+    type: File
+    doc: Index file for the VCF filter calls.

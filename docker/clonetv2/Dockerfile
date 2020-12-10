@@ -5,4 +5,4 @@ ADD rootfs/ /
 RUN /build/bin/install_r_packages.R && \
     rm -rf /build
 
-CMD [ "/usr/bin/Rscript" ]
+CMD [ "/usr/bin/clonet" ]

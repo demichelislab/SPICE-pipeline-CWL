@@ -2,11 +2,7 @@
 
 packages   <- c(
   'docopt',
-  'data.table',
-  'ggplot2',
-  'ggrepel',
-  'arules',
-  'CLONETv2'
+  'data.table'
 )
 repository <- 'https://cloud.r-project.org/'
 install.packages(packages, repos = repository)

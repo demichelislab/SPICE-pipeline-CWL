@@ -1,0 +1,4 @@
+name: sex_enum
+type: enum
+doc: Enumeration encoding the sex of the patient.
+symbols: [m, f]

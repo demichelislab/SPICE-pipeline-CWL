@@ -1,6 +1,6 @@
 FROM debian:buster-slim AS build
 
-ARG pkg_version
+# ARG pkg_version
 
 WORKDIR /build
 

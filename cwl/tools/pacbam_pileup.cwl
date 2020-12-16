@@ -88,7 +88,6 @@ inputs:
       If true, it includes the stderr output along with the stdout in the log
       file.
     type: boolean
-    type: boolean
     default: true
   log_filename:
     doc: The name of the output file that will contain the output.

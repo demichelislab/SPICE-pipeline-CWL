@@ -88,7 +88,7 @@ inputs:
       The sex of the patient from which the sample was collected. Either "m"
       or "f".
     type: sex_enum:sex_enum
-  accessible_regions_bed:
+  cnvkit_accessible_regions_bed:
     doc: |-
       An optional file containing the regions of the genome that are accessible
       (meaning that can be sequenced).
@@ -303,7 +303,7 @@ steps:
       sample_sex: sample_sex
       target_bed_file: kit_target_bed_file
       reference_genome_fasta_file: reference_genome_fasta_file
-      accessible_regions_bed: accessible_regions_bed
+      accessible_regions_bed: cnvkit_accessible_regions_bed
       log_to_file: log_to_file
     out:
       - output

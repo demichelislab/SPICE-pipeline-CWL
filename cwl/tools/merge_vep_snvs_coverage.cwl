@@ -64,8 +64,8 @@ outputs:
     outputBinding:
       glob: $(inputs.output_filename)
   log_file:
-      doc: |-
-        The log file, if enabled, that captures the output produced by the tool.
+    doc: |-
+      The log file, if enabled, that captures the output produced by the tool.
     type: File?
     outputBinding:
       glob: $(inputs.log_filename)

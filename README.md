@@ -37,7 +37,7 @@ included in the pipeline.
 
 ### MuTect2
 
-  MuTect2 Call somatic short mutations via local assembly of haplotypes. Short
+  MuTect2 calls somatic short mutations via local assembly of haplotypes. Short
   mutations include single nucleotide variant (SNVs) and insertion and deletion
   (indel) alterations.
 

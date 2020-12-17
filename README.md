@@ -3,7 +3,9 @@
 ## Overview
 
 The SPICE pipeline is designed to generate a comprehensive view of the genomic landscape of matched tumor and normal samples by leveraging allele-specific information from high quality next generation sequencing data. Specifically, using targeted DNA data (e.g. WES), the pipeline first applies tumor purity and ploidy correction, generates a quantitative measure of aneuploidy (asP), and then calls a series of genomic aberrations, including allele-specific copy number aberrations, SNVs with copy number corrected allelic fractions and indels. To allow for reliable analyses, the SPICE pipeline includes several QC tools.
-The pipeline is written using the Common Workflow Language (CWL) {REF CWL}, a standard specification for the description of computational workflows that enables easily portable and scalable pipelines. Using one of the many available CWL implementations, it is possible to run SPICE on a variety of architectures (from single machines to clusters or cloud services) to easily scale up as needed. In order to enable ease of use and reproducible analyses, the tools that are used in the pipeline are ready on Docker Hub as containers.
+
+The pipeline is written using the Common Workflow Language (CWL) (https://www.commonwl.org), a standard specification for the description of computational workflows that enables easily portable and scalable pipelines. Using one of the many available CWL implementations, it is possible to run SPICE on a variety of architectures (from single machines to clusters or cloud services) to easily scale up as needed. In order to enable ease of use and reproducible analyses, the tools that are used in the pipeline are ready on Docker Hub as containers.
+
 To run the pipeline, it is sufficient to create a single configuration file per tumor/normal pair, where the user provides the required options (e.g. BAM files, reference genome).
 
 

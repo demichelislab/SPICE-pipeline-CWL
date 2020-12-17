@@ -437,4 +437,6 @@ data/
 logs/                # Contains log for each step if option log_to_file is set
                        # to true
 ```
+## Fundings
 
+This project is funded by (ERC-CoG-2014-648670)

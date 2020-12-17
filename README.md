@@ -2,7 +2,7 @@
 
 ## Overview
 
-The SPICE CWL pipeline allow to analyze matched tumor and normal next generation
+The SPICE CWL pipeline allows the analysis of matched tumor and normal next generation
 sequencing data. The pipeline is implemented in Common Workflow Language (CWL).
 The pipeline analyze targeted sequencing data to produce a comprehensive picture
 of the mutation landscape of a tumor. In particular the pipeline calls genomic
@@ -439,4 +439,4 @@ logs/                # Contains log for each step if option log_to_file is set
 ```
 ## Fundings
 
-This project is funded by (ERC-CoG-2014-648670)
+This project is funded by the ERC (ERC-CoG-2014-648670), to F. Demichelis.

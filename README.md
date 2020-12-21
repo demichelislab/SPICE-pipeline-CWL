@@ -83,6 +83,7 @@ included in the pipeline.
   VEP determines the effect of variants (SNPs, insertions, deletions, CNVs or
   structural variants) on genes, transcripts, and protein sequence, as well as
   regulatory regions.
+  McLaren et al. (2016) <doi:10.1186/s13059-016-0974-4>
 
 ## Configuration
 

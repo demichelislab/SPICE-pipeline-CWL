@@ -22,7 +22,7 @@ included in the pipeline.
   pileups. The package also calculates the clonality of single nucleotide
   variants (SNVs) given read counts at mutated positions.
   Prandi et al. (2019) <https://doi.org/10.1002/cpbi.81>;
-  Prandi et al. (2014) <https://doi:10.1186/s13059-014-0439-6>
+  Prandi et al. (2014) <https://doi.org/10.1186/s13059-014-0439-6>
 
 ### CNVkit
 

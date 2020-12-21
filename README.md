@@ -14,13 +14,15 @@ To run the pipeline, it is sufficient to create a single configuration file per 
 This section includes a brief description for each of the main analysis tools
 included in the pipeline.
 
-### CLONET
+### CLONETv2
 
   Analyzes genomic data from next-generation sequencing experiments.
   CLONETv2 offers a set of functions to compute allele specific copy number
   and clonality from segmented data leveraging heterozygous SNPs position
   pileups. The package also calculates the clonality of single nucleotide
   variants (SNVs) given read counts at mutated positions.
+  Prandi et al. (2019) <https://doi.org/10.1002/cpbi.81>
+  Prandi et al. (2014) <doi:10.1186/s13059-014-0439-6>
 
 ### CNVkit
 

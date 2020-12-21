@@ -27,9 +27,10 @@ included in the pipeline.
 ### CNVkit
 
   CNVkit is a Python library and command-line software toolkit to infer and
-  visualize copy number from high-throughput DNA sequencing data. It is designed
-  for use with hybrid capture, including both whole-exome and custom target
-  panels, and short-read sequencing platforms such as Illumina and Ion Torrent.
+  visualize copy number alterations from high-throughput DNA sequencing data. It is designed
+  for use with hybrid capture, including both whole-exome, custom target
+  panels and short-read sequencing platforms such as Illumina and Ion Torrent.
+
 
 ### ETHSeq
 

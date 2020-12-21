@@ -30,13 +30,15 @@ included in the pipeline.
   visualize copy number alterations from high-throughput DNA sequencing data. It is designed
   for use with hybrid capture, including both whole-exome, custom target
   panels and short-read sequencing platforms such as Illumina and Ion Torrent.
+  Talevich et al. (2016) <https://doi.org/10.1371/journal.pcbi.1004873>
 
 
 ### ETHSeq
 
   EthSEQ provides an automated pipeline, implemented as R package, to annotate
   the ethnicity of individuals from WES data inspecting differential SNPs
-  genotype profiles while exploiting variants covered by the specific assay. 
+  genotype profiles while exploiting variants covered by the specific assay.
+  Romanel et al. (2017) <https://doi.org/10.1093/bioinformatics/btx165>
 
 ### MuTect2
 

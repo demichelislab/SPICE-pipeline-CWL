@@ -43,8 +43,9 @@ included in the pipeline.
 ### MuTect2
 
   MuTect2 calls somatic short mutations via local assembly of haplotypes. Short
-  mutations include single nucleotide variant (SNVs) and insertion and deletion
+  mutations include single nucleotide variant (SNVs), insertion and deletion
   (indel) alterations.
+  <https://gatk.broadinstitute.org/hc/en-us/articles/360037593851-Mutect2>
 
 ### PaCBAM
 
@@ -54,6 +55,7 @@ included in the pipeline.
   generates exhaustive output files for downstream analysis, introduces an
   innovative on-the-fly read duplicates filtering strategy and provides
   comprehensive visual reports. 
+  Valentini et al. (2019) <https://doi.org/10.1186/s12864-019-6386-6>
 
 ### Picard HSMetrics
 
@@ -61,17 +63,20 @@ included in the pipeline.
   sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.
   CollectHsMetrics is used to capture several metrics useful to verify the
   quality of target-capture sequencing experiments.
+  <https://gatk.broadinstitute.org/hc/en-us/articles/360036856051-CollectHsMetrics-Picard->
 
 ### SPIA
 
   SPIA allows for the verification of two or more DNA samples deriving from the
   same or different individuals.
+  Demichelis et al. (2008) <https://doi.org/10.1093/nar/gkn089>
 
 ### TPES
 
-  A bioinformatics tool for the estimation of the tumor purity from sequencing
+  A bioinformatics tool for the estimation of tumor purity from sequencing
   data. It uses the set of putative clonal somatic single nucleotide variants
   within copy number neutral segments to call tumor cellularity.
+  Locallo et al. (2019) <https://doi.org/10.1093/bioinformatics/btz406>
 
 ### VEP
 

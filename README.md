@@ -1,4 +1,4 @@
-# CWL SPICE-pipeline
+# SPICE-pipeline-CWL
 
 ## Overview
 
